@@ -1,0 +1,147 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #e66465, #9198e5);
+  color: #333;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+p {
+  color: #f4f4f4;
+  font-size: 1.1em;
+  line-height: 1.6;
+  max-width: 800px;
+  padding: 0 20px;
+  text-align: center;
+}
+.top-menu {
+ background-color: transparent;
+ width: 100%;
+ padding: 10px;
+ text-align: center;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.top-menu a {
+  margin: 0 20px; /* Increased margin for better spacing */ 
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+.card {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  padding: 2em;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+ width: 100%;
+}
+button {
+  background-color: #007bff; 
+ color: white;
+ border: none;
+ padding: 12px 24px;
+ border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ margin: 5px; /* space between buttons */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+button:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); /* Press effect */
+}
+.button-group {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap */
+  margin-bottom: 20px; /* Space below the button group */
+}
+.read-the-docs {
+  color: #888;
+}
+
+#ocrResult {
+  background-color: #ffffff;
+  border: 1px solid #b2ebf2;
+  color: #004d40;
+  width: 100%;
+  max-width: 700px;
+  height: 250px;
+  padding: 15px;
+  overflow-y: auto;
+  resize: none;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#previewImage {
+  max-width: 700px; /* Increased max-width */
+  max-height: 500px; /* Adjusted max-height for better balance */
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+p { 
+  color: #f4f4f4;
+  font-size: 1.1em;
+ max-width: 800px;
+}
+
+/* Style for the file input button */
+#imageUpload {
+  border: 1px solid #ccc;
+  border-radius: 8px; /* More rounded corners */
+  margin-bottom: 10px;
+}
+
+#languageSelect {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px; /* Space to the right */
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #fff; /* White background for select */
+  color: #333; /* Dark text for select */
+}
+
+#progressIndicator {
+  margin-top: 10px; /* Space above progress */
+  margin-bottom: 20px; /* Space below progress */
+  font-size: 0.9em;
+  color: #555; /* Subtle color */
+  text-align: center;
+}}
